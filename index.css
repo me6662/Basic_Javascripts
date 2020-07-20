@@ -4,4 +4,15 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: color 0.5s ease-in-out;
+  /*ease-in-out : 천천히(ease) 시작되고(in)
+   천천히(ease) 끝남(out)*/
+}
+
+.clicked {
+  color: #7f8c8d;
+}
+
+.btn {
+  cursor: pointer;
 }
